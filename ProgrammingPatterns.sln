@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{C6237761-95EB-4A5F-AC62-B5AEEEDE5D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{958839CA-C46B-4567-BBBB-7ACF53928D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{107E6424-5928-46BE-8923-28DBDE5D38DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_instructed", "Strategy_instructed\Strategy_instructed.csproj", "{379498C9-E87D-4F96-88CE-7667F871C42E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{379498C9-E87D-4F96-88CE-7667F871C42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379498C9-E87D-4F96-88CE-7667F871C42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379498C9-E87D-4F96-88CE-7667F871C42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379498C9-E87D-4F96-88CE-7667F871C42E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{379498C9-E87D-4F96-88CE-7667F871C42E} = {107E6424-5928-46BE-8923-28DBDE5D38DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33A53AB3-7C55-4082-A989-2A44CE468413}
